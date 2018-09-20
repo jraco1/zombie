@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" type="text/css" herf="scrolling_1.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+        var zero=0;
+            $(document).ready(function(){
+                $(window).on('scroll', function(){
+                    $('.navbar').toggleClass('hide', $(window).scrollTop()>zero);
+                    zero = $(window).scrollTop();
+                })
+            })
+        </script>
+    
+    </head>
+  
+    <body>
+        
+      <div class="navbar">
+        <ul>
+          <li><a herf="#" class="active"> home </a></li>
+          <li><a herf="#"> about us </a></li>
+          <li><a herf="#"> costume </a></li>
+          <li><a herf="#"> location </a></li>
+        </ul>
+      </div>
+      
+      <section class="sec1">
+          <div class ="yeah">
+            <p data-parallax='{"rotateX":1000}'>H</p>
+            <p data-parallax='{"rotateX":900}'>A</p>
+            <p data-parallax='{"rotateX":800}'>L</p>
+            <p data-parallax='{"rotateX":700}'>L</p>
+            <p data-parallax='{"rotateX":600}'>O</p>
+            <p data-parallax='{"rotateX":500}'>W</p>
+            <p data-parallax='{"rotateX":500}'>E</p>
+            <p data-parallax='{"rotateX":400}'>E</p>
+            <p data-parallax='{"rotateX":400}'>N</p>
+            <p data-parallax='{"rotateX":400}'>  </p>
+            <p data-parallax='{"rotateX":800}'>M</p>
+            <p data-parallax='{"rotateX":700}'>A</p>
+            <p data-parallax='{"rotateX":600}'>D</p>
+            <p data-parallax='{"rotateX":500}'>N</p>
+            <p data-parallax='{"rotateX":500}'>E</p>
+            <p data-parallax='{"rotateX":400}'>S</p>
+            <p data-parallax='{"rotateX":400}'>S</p>
+            <br> <h4>IN YOUR CITY</h4>
+        </div>
+        <script type="text/javascript" src="scrolling/js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="scrolling/js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="scrolling/js/jquery.parallax-scroll.js"></script>
+      </section>
+      <section class="sec2"></section>
+      <section class="sec3"></section>
+      <section class="sec4"></section>
+      
+            
+    </body>
+</html>
