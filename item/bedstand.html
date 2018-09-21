@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <link rel="stylesheet" href="item.css" type="text/css" />
+        <script src="buynow.js" ></script>
     </head>
     <body>
-        <div class="purchase">
-            <h5>Price</h5>
-            <p>$49.99</p>
-            <h5>Shipping</h5>
-            <p>A leg (dismembered)</p>
-            <h5>Total:</h5>
-            <h5>$299.99</h5>
-            <button>Buy Now!</button>
-        </div>
         <div class="picture">
             <p>Product Image</p>
             <img src="../image/self-defense-night-stand.jpg" alt="Nightstand">
+        </div>
+        <div class="purchase">
+            <table>
+                <tr>
+                    <th>Price</th>
+                    <td>$49.99</td>
+                </tr>
+                <tr>
+                    <th>Shipping</th>
+                    <td>1 Leg (dismembered)</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <td>$299.99</td>
+                </tr>
+            </table>
+            <button onclick="buynow()" >Buy Now!</button>
         </div>
         <div class="blurb">
             <p>The latest in bedside protection is the self defense bedstand.
@@ -63,57 +72,59 @@
             </table>
         </div>
         <div class="reviews">
-            <div class="review">
-                <table>
-                    <tr>
-                        <th>User</th>
-                        <td>Arnold Schwarzenegger</td>
-                    </tr>
-                    <tr>
-                        <th>Stars</th>
-                        <td>12</td>
-                    </tr>
-                    <tr>
-                        <th>Comments</th>
-                        <td>
-                            One of the best batstands I could find.  Good price, wish it came in camo.  Would buy again!
-                            Hasta la vista!
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>User</th>
-                        <td>Mr Bill</td>
-                    </tr>
-                    <tr>
-                        <th>Stars</th>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <th>Comments</th>
-                        <td>
-                            I keep getting attacked by 4 zombies at once.  I do my best to hold them off by myself, but as this 
-                            item is only rated to 3.2, they overwhelm me and I have to yell for help because they are going to
-                            be mean to me!
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>User</th>
-                        <td>Aunt May</td>
-                    </tr>
-                    <tr>
-                        <th>Stars</th>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <th>Comments</th>
-                        <td>
-                            This nightstand fends off the zombs as advertised, and it shipped in under a year 
-                            (that's why it's not one star), but functionally it has a major flaw: my doilies fall off the moment 
-                            I take it apart to defend myself!  I had to attach them with superglue to keep them in place.  Buyer beware!
-                        </td>
-                    </tr>
-                </table>
-            </div>
+            <table class="review">
+                <tr>
+                    <th>User</th>
+                    <td>Arnold Schwarzenegger</td>
+                </tr>
+                <tr>
+                    <th>Stars</th>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <th>Comments</th>
+                    <td>
+                        One of the best batstands I could find.  Good price, wish it came in camo.  Would buy again!
+                        Hasta la vista!
+                    </td>
+                </tr>
+            </table>
+            <table class="review">
+                <tr>
+                    <th>User</th>
+                    <td>Mr Bill</td>
+                </tr>
+                <tr>
+                    <th>Stars</th>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Comments</th>
+                    <td>
+                        I keep getting attacked by 4 zombies at once.  I do my best to hold them off by myself, but as this 
+                        item is only rated to 3.2, they overwhelm me and I have to yell for help because they are going to
+                        be mean to me!
+                    </td>
+                </tr>
+            </table>
+            <table class="review">
+                <tr>
+                    <th>User</th>
+                    <td>Aunt May</td>
+                </tr>
+                <tr>
+                    <th>Stars</th>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Comments</th>
+                    <td>
+                        This nightstand fends off the zombs as advertised, and it shipped in under a year 
+                        (that's why it's not one star), but functionally it has a major flaw: my doilies fall off the moment 
+                        I take it apart to defend myself!  I had to attach them with superglue to keep them in place.  Buyer beware!
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>

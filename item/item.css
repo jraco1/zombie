@@ -1,1 +1,22 @@
 
+.purchase {
+    
+}
+
+.purchase button {
+    width: 100%;
+    border-radius: 10px;   
+    color: white;
+    background-color: green;
+    font-size: larger;
+}
+
+.picture img {
+    width: 50%;
+}
+
+.review {
+    background-color: rgb(255, 223, 109);
+    margin: 5px;
+    width: 100%;
+}
