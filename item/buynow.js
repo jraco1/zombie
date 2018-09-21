@@ -16,7 +16,9 @@ var errorMsg = ["Insufficient cats",
                 "Warehouse relocated to Moon, please contact Musk",
                 "Unicorns stole my kidney",
                 "The zombified llamas are harder to train than we thought",
-                "Ran out of lint"];
+                "Ran out of lint",
+                "Error error",
+                "Driver drank the kool-aid :'-( "];
 
 function buynow() {
     
