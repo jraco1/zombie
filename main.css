@@ -129,8 +129,15 @@ section.sec4 ul h6{
 
 section.sec3 img{ 
     width:400px;
+    height:400px;
+}
+
+section.sec3 img:hover{
+    border:1px solid rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.09);
 }
 
 section.sec3 ul li{
     display:inline-block;
+    transform:translateX(70%) translateY(50%);
 }
